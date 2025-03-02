@@ -9,7 +9,7 @@ function carregar(){
              document.body.style.background = '#e2cd9f'
         
                
-     } else if (b >= 17 && b <= 23 ){
+     } else if (b > 17 && b <= 23 ){
         msg.innerHTML = `agora são ${b} horas boa noite`
          img.src = 'noite.png'
          
@@ -24,7 +24,7 @@ function carregar(){
 
      } else {
       img.src = "noite.png"
-      msg.innerText = `agora são ${b} esta de madrugada`
+      msg.innerText = `agora são ${b} horas esta de madrugada`
       
 
      }
